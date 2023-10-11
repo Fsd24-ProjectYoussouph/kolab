@@ -2,7 +2,10 @@
 Kolab
 
 Bienvenue sur le projet Kolab! 
-Ce projet est divisé en trois principaux dossiers : api, app et admin. Chacun représente une partie distincte du projet. Voici comment vous pouvez démarrer avec chacun d'eux.
+
+Ce projet est divisé en trois principaux dossiers : api, app et admin. Chacun représente une partie distincte du projet. 
+
+Voici comment vous pouvez démarrer avec chacun d'eux.
 
 Structure du Projet
 
