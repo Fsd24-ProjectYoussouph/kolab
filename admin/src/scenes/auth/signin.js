@@ -10,9 +10,12 @@ import api from "../../services/api";
 
 export default () => {
   const [seePassword, setSeePassword] = useState(false);
+  const ADMIN_EMAIL = process.env.ADMIN_EMAIL;
+  const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
+  
   const [values, setValues] = useState({
-    email: "admin@yopmail.fr",
-    password: "Abc123$$",
+      email: ADMIN_EMAIL,
+      password: ADMIN_PASSWORD,
   });
 
   const dispatch = useDispatch();
